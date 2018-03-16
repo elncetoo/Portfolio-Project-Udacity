@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+h1 {
+    font-family: 'futurachapro';
+    font-size: 60px;
+    margin: 2%;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+p,
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    text-align: center;
+    width: 100%;
+}
+
+.img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.img:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.logo-img {
+    opacity: 0.3;
+}
+
+#img-hero {
+    max-width: 100%;
+}
+
+.button {
+    background-color: white;
+    color: #01b3e3;
+    border: 1px solid #01b3e3;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 1px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #01b3e3;
+    color: white;
+}
+
+footer {
+    max-width: 100%;
+    order: 9;
+    padding-top: 1%;
+    background-color: gainsboro;
+    margin-top: 3%;
+}
+
+iframe {
+    border: none;
+    width: 560px;
+    height: 315px;
+}
+
+.tags {
+    color: #01b3e3;
+}

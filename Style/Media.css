@@ -1,0 +1,119 @@
+    @media screen and (max-width: 360px) {
+        h1 {
+            font-size: 42px;
+        }
+        h2 {
+            font-size: 21px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding: 2% 5% 2% 0;
+            max-width: 100%;
+        }
+        .social {
+            height: 2.2em;
+            display: flex;
+            padding: 1% 1% 1% 27%;
+            float: none;
+            margin: 0;
+            max-width: 100%;
+            order: 0;
+        }
+        .img {
+            width: 44%;
+            padding: 1%;
+        }
+        .header {
+            justify-content: space-around;
+        }
+        .logo {
+            display: flex;
+            order: -1;
+            margin: -15% 1% 45% 1%;
+            max-width: 10%;
+        }
+        #logo-img {
+            height: 2em;
+        }
+        .info {
+            margin: -1% 13% 12% 0;
+        }
+        #img-main1 {
+            max-width: 100%;
+        }
+        .subh {
+            font-size: medium;
+            margin: -12% 0 -1% 0;
+        }
+        .hero {
+            padding: 1% 3%;
+        }
+        .content {
+            margin-top: -17%;
+        }
+        .projects {
+            padding: 1% 1% 1% 1%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .tumbs {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            padding-left: 3%;
+        }
+        .tumb1 {
+            padding: 1% 7% 7% 2%;
+        }
+        .tumb2 {
+            padding: 1% 7% 7% 2%;
+        }
+        .tumb3 {
+            padding: 1% 1% 7% 2%;
+        }
+        .headline-t {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    /*
+    @media only screen and (max-width: 600px) and (min-width: 361px) {}
+
+    header {
+        display: flex;
+    }
+
+    .box1 {
+        width: 20%;
+        order: 1;
+        padding: 1% 2% 1% 1%;
+    }
+
+    .box2 {
+        width: 60%;
+        order: 2;
+        padding: 1% 2% 1% 1%;
+    }
+
+    .box3 {
+        width: 10%;
+        order: 3;
+        height: 1.3em;
+        text-align: end;
+    }
+
+    .img {
+        width: 0.5em;
+        padding: 2%;
+    }
+
+    .box4 {
+        order: 4;
+        padding: 1% 2% 1% 1%;
+        flex-direction: column;
+        width: 20%;
+    }
+    */

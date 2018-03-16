@@ -1,0 +1,284 @@
+    @media screen and (max-width: 359px) {
+        .logo-img {
+            max-width: 15%;
+            padding: 2% 1% 0 1%;
+        }
+        .img {
+            max-width: 15%;
+        }
+        iframe {
+            max-width: 90%;
+        }
+    }
+    /* Google Nexus 5 */
+
+    @media only screen and (min-width: 360px) and (max-width: 640px) {
+        .logo-img {
+            max-width: 15%;
+            padding: 2% 1% 0 1%;
+        }
+        .box1 {
+            order: -1;
+        }
+        .box2 {
+            order: 0;
+            padding: 1% 1% 1% 1%;
+        }
+        .box3 {
+            order: 1;
+            height: 2.5em;
+        }
+        .img {
+            width: 35px;
+            padding: 2% 3%;
+        }
+        .box4 {
+            order: 4;
+            padding: 1% 2% 1% 1%;
+        }
+        .box5 {
+            width: 100%;
+            order: 5;
+            padding-top: 2%;
+        }
+        .box6 {
+            order: 6;
+            padding: 3% 4%;
+        }
+        .box7 {
+            order: 7;
+            padding: 3% 4%;
+        }
+        .box8 {
+            order: 8;
+            padding: 3% 4%;
+        }
+        iframe {
+            max-width: 90%;
+        }
+    }
+    /*Minor break point*/
+
+    @media only screen and (min-width: 641px) and (max-width: 767px) {
+        header {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .logo-img {
+            max-width: 50%;
+            text-align: right;
+            padding-top: 28%;
+            margin-right: -106%;
+        }
+        .box1 {
+            order: 1;
+            max-width: 20%;
+        }
+        .box2 {
+            order: 2;
+            max-width: 80%;
+        }
+        .headline {
+            text-align: right;
+            padding-right: 10%;
+            margin-bottom: -2%;
+        }
+        .box3 {
+            max-width: 15%;
+            display: flex;
+            flex-direction: column;
+            order: 3;
+            padding-top: 10%;
+        }
+        .img {
+            max-width: 34%;
+            padding: 8% 1%;
+        }
+        .box4 {
+            max-width: 75%;
+            order: 4;
+            padding: 1% 2% 1% 1%;
+        }
+        .box5 {
+            width: 100%;
+            order: 5;
+        }
+        .box6 {
+            order: 6;
+            max-width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 2%;
+        }
+        .box7 {
+            order: 7;
+            max-width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 2%;
+        }
+        .box8 {
+            order: 8;
+            max-width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 2%;
+        }
+        .p-tumb {
+            padding: 1% 2%;
+        }
+    }
+    /*Tablet*/
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .hero h3 {
+            font-size: 25px;
+        }
+        header {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .logo-img {
+            max-width: 50%;
+            text-align: right;
+            padding-top: 28%;
+            margin-right: -106%;
+        }
+        .box1 {
+            order: 1;
+            max-width: 20%;
+        }
+        .box2 {
+            order: 2;
+            max-width: 80%;
+            padding-top: 3%;
+        }
+        .headline {
+            text-align: right;
+            padding-right: 10%;
+            margin-bottom: -2%;
+        }
+        .box3 {
+            max-width: 15%;
+            display: flex;
+            flex-direction: column;
+            order: 3;
+            padding-top: 10%;
+        }
+        .img {
+            max-width: 34%;
+            padding: 8% 1%;
+        }
+        .box4 {
+            max-width: 75%;
+            order: 4;
+            padding: 1% 2% 1% 1%;
+        }
+        .box5 {
+            width: 100%;
+            order: 5;
+        }
+        .box6 {
+            order: 6;
+            max-width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 2%;
+        }
+        .box7 {
+            order: 7;
+            max-width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 2%;
+        }
+        .box8 {
+            order: 8;
+            max-width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 2%;
+        }
+        .p-tumb {
+            padding: 1% 2%;
+        }
+    }
+    
+    /*Desctop*/
+
+    @media (min-width: 1025px) {
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .headline-t {
+            font-size: 25px;
+        }
+        header {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .logo-img {
+            max-width: 30%;
+            text-align: right;
+            padding-top: 6%;
+            margin-right: -89%;
+        }
+        .box1 {
+            order: 1;
+            max-width: 20%;
+        }
+        .box2 {
+            order: 2;
+            max-width: 80%;
+            padding-top: 2%;
+            padding-bottom: 1%;
+        }
+        .box2 h1 {
+            margin: 0;
+        }
+        .headline {
+            text-align: right;
+            padding-right: 12%;
+            margin-bottom: -2%;
+        }
+        .box3 {
+            max-width: 15%;
+            display: flex;
+            flex-direction: column;
+            order: 3;
+            padding-top: 10%;
+        }
+        .img {
+            max-width: 34%;
+            padding: 8% 1%;
+        }
+        .box4 {
+            max-width: 75%;
+            order: 4;
+            padding: 1% 2% 1% 1%;
+        }
+        .box5 {
+            width: 100%;
+            order: 5;
+        }
+        .box6 {
+            max-width: 30%;
+            order: 6;
+            padding: 1%;
+            margin-left: 2%;
+        }
+        .box7 {
+            max-width: 30%;
+            order: 7;
+            padding: 1%;
+        }
+        .box8 {
+            max-width: 30%;
+            order: 8;
+            padding: 1%;
+        }
+        iframe {
+            max-width: 90%;
+        }
+    }

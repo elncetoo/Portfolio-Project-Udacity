@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+h1 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 44px;
+}
+
+h2,
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    padding: 1% 2% 1%;
+}
+
+.logo {
+    width: 5%;
+    padding-top: 3%;
+}
+
+
+
+.right {
+    float: right;
+}
+
+#sidebar-colors {
+    /*
+	width: 15%;
+	display: block;
+	padding: 1% 15% 1% 1%;
+	*/
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 3em;
+}
+
+.header {
+    
+}
+
+.img {
+    width: 87px;
+    height: 80px;
+    padding-bottom: 27%;
+}
